@@ -14,3 +14,5 @@
 
 
 <img width="492" alt="스크린샷 2022-07-01 오후 3 24 42" src="https://user-images.githubusercontent.com/107246410/176836657-62cbab7e-a527-4eb1-b5f8-437166eb82d4.png">
+
+<img width="418" alt="스크린샷 2022-07-01 오후 3 26 22" src="https://user-images.githubusercontent.com/107246410/176836885-13108a97-6553-4f40-acf6-b008745561f6.png">
