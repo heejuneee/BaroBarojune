@@ -221,3 +221,5 @@ namespace AsyncSimpleGUIClient
                 mainSock.Close();
             }
         }
+        
+      
