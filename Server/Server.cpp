@@ -182,32 +182,32 @@ namespace AsyncGUISimpleServer
                 }
             }
         }
-//         private void btnSend_Click(object sender, EventArgs e)
-//         {
-//             if (!mainSock.IsBound) 
-//             {
-//                 return;
-//             }
-//             string tts = txtTTS.Text.Trim();
-//             if (string.IsNullOrEmpty(tts))
-//             {
-//                 return;
-//             }
-//             //if (!Client.IsBound)
-//             //{
-//             //    return;
-//             //}
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            if (!mainSock.IsBound) 
+            {
+                return;
+            }
+            string tts = txtTTS.Text.Trim();
+            if (string.IsNullOrEmpty(tts))
+            {
+                return;
+            }
+            //if (!Client.IsBound)
+            //{
+            //    return;
+            //}
  
-//             byte[] bDts = Encoding.UTF8.GetBytes("server: " + tts);
+            byte[] bDts = Encoding.UTF8.GetBytes("server: " + tts);
  
-//             AppendText(txtHistory, "server : " + tts);
-//             sendAll(null, bDts);
-//             txtTTS.Clear();
-//         }
+            AppendText(txtHistory, "server : " + tts);
+            sendAll(null, bDts);
+            txtTTS.Clear();
+        }
  
-//         private void txtHistory_TextChanged(object sender, EventArgs e)
-//         {
+        private void txtHistory_TextChanged(object sender, EventArgs e)
+        {
  
-//         }
-//     }
-// }
+        }
+    }
+}
